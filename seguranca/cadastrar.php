@@ -10,7 +10,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 
 //recuperar a chave:
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
-"secret"=>"6Lcj5hQdAAAAABxkslgZsHv7ccrhnLVNe2EZeGl5",
+"secret"=>"bash_secreto",
 "response"=>$_POST["g-recaptcha-response"],
 "remoteip"=>$_SERVER["REMOTE_ADDR"]
 )));
